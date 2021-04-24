@@ -4,7 +4,7 @@ public class Animal {
     private String nome;
     private String especie;
     private String pelagem;
-    private int quantidadePatas;
+    private static int quantidadePatas;
     private String meioLocomocao;
 
     public Animal (String nome, String especie, String pelagem, int quantidadePatas, String meioLocomocao) {
@@ -36,6 +36,9 @@ public class Animal {
 
     public void setNome(String nome){
         this.nome = nome;
+    }
+    public void setQuantidadePatas(int quantidadePatas){
+        this.quantidadePatas = quantidadePatas;
     }
 
 

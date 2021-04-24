@@ -36,7 +36,13 @@ public class Main{
     aguia.voa();
     System.out.println("\n");
 
+    cachorro.setQuantidadePatas(5);
 
+    System.out.println(cachorro.getNome()+" possui "+cachorro.getquantidadPatas()+" patas!");
+    System.out.println(piranha.getNome()+" possui "+ piranha.getquantidadPatas()+ "patas!");
+    System.out.println(aguia.getNome()+ " possui "+aguia.getquantidadPatas()+ " patas!");
+
+    System.out.println(Config.numPatas(cachorro));
     
    
 
